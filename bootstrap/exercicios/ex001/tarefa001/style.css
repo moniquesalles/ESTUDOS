@@ -1,0 +1,19 @@
+
+h1 {
+background: coral;
+color: black;
+}
+.col {
+    height: 50px;
+    border: 1px solid coral
+}
+
+.odd {
+  color: aqua;
+  background: blue;
+}
+
+.even {
+color: blue;
+background: aqua;
+}

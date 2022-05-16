@@ -1,0 +1,136 @@
+/*xs*/
+h1 {
+    color: red;
+}
+
+/*sm >= 576px*/
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+
+/*sd>=768px*/
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/*xl>=1200px*/
+@media (min-width: 1200px) {
+    h1 {
+        color: yellow;
+    }
+}
+
+/*xxl>=1400px*/
+@media (min-width: 1400px) {
+    h1 {
+        color: teal;
+    }
+}
+
+.btn-primary {
+    background-color: rgb(192, 33, 33);
+    color: rgb(0, 255, 21);
+}
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+/*container breakpoint*/
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid yellow
+}
+
+/*Grid*/
+.container {
+    border: 5px dotted purple;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid rgb(35, 35, 133);
+    height: 100px;
+    padding: 10px;
+    margin: 0; 
+}
+
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11, 
+.col-6,
+.col-3 {
+    border: 2px dashed rgb(223, 182, 0);
+    height: 100%;
+    margin: 0;
+}
+
+.largura-limitada {
+    max-width: 500px;
+}
+
+/*alinhamento vertical*/
+
+.vertical {
+    height: 250px;
+    border-color: rgb(153, 138, 5);
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4 {
+    height: 50px;
+}
+
+/* offset*/
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3 {
+    height: 50px;
+    border: 2px solid yellow;
+}
+
+/*gutter*/
+
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+    height: 50px;
+}
+
+.row p {
+    border: 2px solid green;
+    
+

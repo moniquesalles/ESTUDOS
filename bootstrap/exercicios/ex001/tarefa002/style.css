@@ -1,0 +1,27 @@
+h1 {
+ background: coral;
+ color: rgb(0, 0, 0);
+}
+
+.col-12 {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-12 i  {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.a {
+    border: 3px solid green;
+}
+.b {
+    border: 3px solid rgb(38, 0, 128);
+}
+
+.c {
+    border: 3px solid rgb(128, 0, 111);
+}
